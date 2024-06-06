@@ -454,6 +454,7 @@ section.profissionais {
   padding: 4em 0;
   padding-left: 30px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .profissionais-single {
