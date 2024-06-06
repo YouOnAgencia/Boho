@@ -51,10 +51,11 @@ function Form() {
                             <h1>Fale Conosco</h1>
                             <p className="second-p">Não perca mais tempo e entre em contato com nossa equipe de especialistas. Teremos o mais prazer em ajudar você.</p>
                             <div className="end-form">
+                            <Link to='LinkMain' smooth={true} spy={true} offset={-60} duration={500}><img className='logo-bohoForm' src={LOGO} alt="" /></Link>
+
                                 <FontAwesomeIcon icon={faLocationDot} />
                                 <p>Av Mário Pinotte 1120. Centro, Brotas-SP</p>
                             </div>
-                            <Link to='LinkMain' smooth={true} spy={true} offset={-60} duration={500}><img className='logo-boho' src={LOGO} alt=""/></Link>
 
                         </div>
                         <form action="#" method="post" autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
