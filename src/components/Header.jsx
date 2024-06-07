@@ -45,7 +45,7 @@ export default function Header() {
             <header className='header-nav'>
                 <div className='maxWidth'>
                     <div className='nav-menu'>
-                    <Link to='LinkMain' smooth={true} spy={true} offset={-60} duration={500}><img className='logo-boho' src={LOGO} alt=""/></Link>
+                    <img href="/" className='logo-boho' src={LOGO} alt=""/>
                         <nav className="menu-mobile">
                             <i onClick={toggleMenu}><FontAwesomeIcon icon={faBars} /></i>
                             <ul className={`nav-list ${showMenu ? 'show-menu' : ''}`}>
