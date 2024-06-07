@@ -1,7 +1,9 @@
 import BGSOBRE from '../img/sobre-img.png'
 import HAIR from '../img/hair.png'
-import SHAMPOO from '../img/shampoo.png'
+import NOIVA from '../img/noiva.png'
 import TOILETRIES from '../img/toiletries.png'
+import MANICURE from '../img/manicure.png'
+
 
 function Sobre() {
     return (
@@ -17,7 +19,7 @@ function Sobre() {
                             </div>
                             <div className='wrapper-sobre-mini'>
                                 <div className='sobre-mini-single'>
-                                    <img src={HAIR} alt="" />
+                                    <img src={MANICURE} alt="" />
                                     <h5>Manicure</h5>
                                     <p>Oferecemos serviços de manicure que transformam suas unhas em verdadeiras obras de arte. De cuidados clássicos a designs modernos, garantimos unhas impecáveis e saudáveis.</p>
                                 </div>
@@ -27,12 +29,12 @@ function Sobre() {
                                     <p>Nossos serviços de cabelo são projetados para realçar sua beleza natural. Desde cortes modernos e colorações vibrantes até tratamentos que fortalecem e revitalizam, cuidamos dos seus cabelos com a atenção e a expertise que eles merecem</p>
                                 </div>
                                 <div className='sobre-mini-single'>
-                                    <img src={SHAMPOO} alt="" />
+                                    <img src={TOILETRIES} alt="" />
                                     <h5>Maquiagem</h5>
                                     <p>Transforme seu visual com nossas maquiagens profissionais. Seja para um evento especial ou para o dia a dia, nossos maquiadores criam looks deslumbrantes que destacam sua beleza única.</p>
                                 </div>
                                 <div className='sobre-mini-single'>
-                                    <img src={TOILETRIES} alt="" />
+                                    <img src={NOIVA} alt="" />
                                     <h5>Noivas</h5>
                                     <p>Como especialistas em noivas, oferecemos serviços completos para o grande dia. De penteados elegantes a maquiagens impecáveis, cuidamos de cada detalhe para que você se sinta deslumbrante e confiante no seu momento especial.</p>
                                 </div>
