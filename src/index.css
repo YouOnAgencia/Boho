@@ -381,14 +381,18 @@ section.assine {
   padding-top: 20px;
 }
 
+.formAssine{
+  width:100%;
+  text-align:center;
+}
+
 .register-btn {
-  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
 }
 
-.register-btn input {
+.register-btn .inputAssine {
   margin-right: 8px;
   outline: 0;
   border: 0;
@@ -398,13 +402,17 @@ section.assine {
   width: 100%;
 }
 
-.register-btn a {
+.btnAssine {
   background-color: #000000;
   color: white;
-  padding: 14px;
+  padding: 10px 30px;
   border-radius: 8px;
   text-decoration: none;
   font-size: 12px;
+  outline: 0;
+  border: 0;
+  cursor:pointer;
+  text-transform: uppercase;
 }
 
 /* PROFISSIONAIS */
@@ -569,14 +577,14 @@ section.formulario {
   font-size: .9em;
 }
 
-form {
+.formContato {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 30px;
   width: 50%;
 }
 
-form h1 {
+.formContato h1 {
   color: #cca686;
   font-weight: 400;
   letter-spacing: 1px;

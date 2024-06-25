@@ -13,7 +13,7 @@ function Form() {
 
     const onSubmit = async (data) => {
 
-        await axios.post('https://formspree.io/f/mayrevop', data)
+        await axios.post('https://formspree.io/f/xvoeevaw', data)
             .then(() => {
                 toast.success('Mensagem enviada com sucesso!', {
                     position: "bottom-right",
@@ -58,7 +58,7 @@ function Form() {
                             </div>
 
                         </div>
-                        <form action="#" method="post" autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
+                        <form className="formContato" action="#" method="post" autoComplete="off" onSubmit={handleSubmit(onSubmit)}>
                             <h1>Formulário de contato</h1>
 
                             <input className="w100" type="text" placeholder="Digite seu primeiro nome*" {...register("nome", { required: "Por favor, preencha seu nome!" })} />

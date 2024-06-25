@@ -15,7 +15,7 @@ function Sobre() {
                             <div className='sobreText'>
                                 <h4>Sobre a</h4>
                                 <h1>Boho ateliê</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus rerum inventore accusamus officia facere ipsa blanditiis sit sed! Ab, nam!</p>
+                                <p>Boho Ateliê é um salão de beleza especializado em serviços de manicure, pedicure, maquiagem e cabelo. Além disso, oferece pacotes completos para o dia da noiva, garantindo um atendimento personalizado e de alta qualidade para tornar esse momento ainda mais especial. Com um ambiente acolhedor e profissionais qualificados, Boho Ateliê é a escolha perfeita para quem busca cuidado e beleza em um só lugar. </p>
                             </div>
                             <div className='wrapper-sobre-mini'>
                                 <div className='sobre-mini-single'>
@@ -26,7 +26,7 @@ function Sobre() {
                                 <div className='sobre-mini-single'>
                                     <img src={HAIR} alt="" />
                                     <h5>Cabelo</h5>
-                                    <p>Nossos serviços de cabelo são projetados para realçar sua beleza natural. Desde cortes modernos e colorações vibrantes até tratamentos que fortalecem e revitalizam, cuidamos dos seus cabelos com a atenção e a expertise que eles merecem</p>
+                                    <p>Nossos serviços de cabelo são projetados para realçar sua beleza natural. Oferecemos cortes modernos, colorações vibrantes e tratamentos que fortalecem e revitalizam, cuidando dos seus cabelos com a atenção e a expertise que merecem.</p>
                                 </div>
                                 <div className='sobre-mini-single'>
                                     <img src={TOILETRIES} alt="" />

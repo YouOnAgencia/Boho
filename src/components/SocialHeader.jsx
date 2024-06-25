@@ -12,7 +12,7 @@ function SocialHeader() {
                         <div className="wrapper-social">
                             <div className='single-social'>
                                 <FontAwesomeIcon icon={faEnvelope} size="base" />
-                                <p>contato@gmail.com</p>
+                                <p>ateliebohoweb@gmail.com</p>
                             </div>
                             <div className='single-social'>
                                 <FontAwesomeIcon icon={faPhone} size="base" />

@@ -6,7 +6,7 @@ export default function Whatsapp() {
     return (
         <>
             <div className="whatsapp">
-                <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" target="_blank">
+                <a href="https://wa.me/5514910057531?text=Olá,%20visitei%20o%20site%20do%20Salão%20de%20Beleza%20e%20fiquei%20interessado(a)%20nos%20seus%20serviços.%20Gostaria%20de%20agendar%20um%20horário%20para%20conhecer%20mais%20de%20perto%20o%20trabalho%20de%20vocês." target="_blank">
                     <i><FontAwesomeIcon icon={faWhatsapp}/></i>
                 </a>
             </div>

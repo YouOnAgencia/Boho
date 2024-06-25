@@ -1,6 +1,8 @@
 import PERFIL1 from '../img/perfil01.png'
 import PERFIL2 from '../img/perfil02.png'
 import PERFIL3 from '../img/perfil03.png'
+import PERFIL4 from '../img/perfil04.png'
+
 
 function Profissionais() {
     return (
@@ -29,6 +31,12 @@ function Profissionais() {
                         <h1>Claudia Ribeiro</h1>
                         <p>Manicure | Pedicure | Depilação</p>
                         <p>Design de sobrancelha</p>
+                    </div>
+                    <div className='profissionais-single'>
+                        <img src={PERFIL4} alt="" />
+                        <h1>Tetê Ferrari</h1>
+                        <p>Manicure | Pedicure | Sobrancelha</p>
+                        <p>Especialista em noivas</p>
                     </div>
                 </div>
             </section>
